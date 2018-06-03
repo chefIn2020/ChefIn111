@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.user.chefin.Main2Activity"
+    android:background="@drawable/back_13">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id ="@+id/button1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+            android:text="NIGHT CHEFS"
+            android:layout_marginStart="10dp"
+            android:textColor="#ffff"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_bg_round"
+            android:padding="15dp"
+            />
+        <Button
+            android:id ="@+id/button2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:text="DISCOVERIES"
+            android:layout_marginStart="10dp"
+            android:textColor="#ffff"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_bg_round"
+            />
+        <Button
+            android:id ="@+id/button3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:text="BUFFETS"
+            android:layout_marginStart="10dp"
+            android:textColor="#ffff"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_bg_round"
+            android:padding="15dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id ="@+id/button4"
+            android:layout_width="140dp"
+            android:layout_gravity="end"
+            android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="EXPLORE"
+            android:textColor="#ffff"
+            android:background="@drawable/button_bg_round"
+            />
+        <Button
+            android:id ="@+id/button5"
+            android:layout_width="140dp"
+            android:layout_gravity="end"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:text="OFFERS"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffff"
+            android:background="@drawable/button_bg_round"
+            />
+        <Button
+            android:id ="@+id/button6"
+            android:layout_width="140dp"
+            android:layout_gravity="end"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:text="ABOUT US!!"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="#ffff"
+            android:background="@drawable/button_bg_round"
+            />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

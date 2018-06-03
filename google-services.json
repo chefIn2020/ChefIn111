@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "498482754043",
+    "firebase_url": "https://chefin-a2579.firebaseio.com",
+    "project_id": "chefin-a2579",
+    "storage_bucket": "chefin-a2579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498482754043:android:dfa51d2e945a5c44",
+        "android_client_info": {
+          "package_name": "example.user.chefin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498482754043-krvm3j3lu1ms1k5m7bkf3lh27v2nmmp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.user.chefin",
+            "certificate_hash": "a696f20e132e9319c8ad5132004e23cb4068a993"
+          }
+        },
+        {
+          "client_id": "498482754043-uhmg0g8lmv41pm4ngg6da1641vpcja2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlH-xziY0mNxnILp2zNrQl4dEjDp2fgss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498482754043-uhmg0g8lmv41pm4ngg6da1641vpcja2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

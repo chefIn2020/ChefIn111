@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    tools:context="example.user.chefin.display_dhaba_list">
+
+    <EditText
+        android:id="@+id/inputSearch"
+        android:inputType="textVisiblePassword"
+        android:hint="Be Specific..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        >
+    </ListView>
+</LinearLayout>
